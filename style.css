@@ -1,0 +1,252 @@
+body{
+    margin-left: 15%;
+    margin-right: 15%;
+}
+
+.container{
+    display: grid;
+    grid-auto-flow: column;
+    grid-auto-columns: 1fr;
+}
+
+.animacaoLetra{
+    font-family: 'Poppins', sans-serif;
+    font-weight: 600;
+    font-size: 24px;
+    display: flex;
+    align-items: center;
+    margin-top: 2%;
+    padding: 0%;
+}
+
+.letra{
+    transition: 0.4s;
+    transform: translateX(0);
+    cursor: grab;
+    color: #000000;
+}
+
+.letra:hover {
+    transform: translateY(-1rem);
+    background: -webkit-linear-gradient(120deg, hsl(19, 90%, 52%), hsl(56, 100%, 50%));
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+#menu ul{
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
+
+#menu li{
+    font-size: 12px;
+    display: inline-block;
+    font-family: 'Poppins';
+    font-size: 16px;
+    padding: 10px;
+}
+
+#menu{
+    text-align: right;
+    margin-top: 49px;
+}
+
+.titulo:hover{
+    transform: translateY(-1rem);
+    background: -webkit-linear-gradient(120deg, hsl(20, 58%, 12%), hsl(56, 100%, 50%));
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+.titulo{
+    transition: 0.4s;
+    transform: translateX(0);
+    cursor: grab;
+    color: #000000;
+}
+
+#buttoncta{
+    color: white;
+    background: #1F7CFF;
+    border-radius: 50px;
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    padding: 10px 25px 10px 25px;
+    font-weight: normal;
+    text-align: center;
+    margin-right: 20px;
+    margin-top: 10px;
+}
+
+a{
+    color: black;
+    text-decoration: none;
+}
+
+#CTA h1{
+    font-family: 'Poppins';
+    font-size: 24px; 
+    padding-top: 50px; 
+    font-weight: 900; 
+}
+
+#CTA p{
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    font-weight: 600;
+    
+}   
+
+#FlipCard img{
+    margin-top: 25px;
+    margin-left: 135px;
+    width: 70%;
+    border-radius: 25px;
+    text-align: center;
+}
+
+.logo img{
+    text-align: center;
+    width: 150px;
+}
+
+#text{
+    font-family: 'Poppins';
+    font-weight: bolder;
+    font-size: 14px;
+    text-align: left;
+    padding-top: 15%;
+}
+
+#cert{
+    margin-top: 49px;
+    margin-bottom: 49px;
+}
+
+h2.red{
+    font-family: 'Poppins';
+    font-weight: bold;
+    font-size: 16px;
+    line-height: 24px;
+    text-align: center;
+    color: #F75C4E;
+}
+
+h1.black{
+    font-family: 'Poppins';
+    font-weight: bold;
+    font-size: 36px;
+    text-align: center;
+    color: black;
+    margin-top: 0;
+    margin-bottom: 0;
+    padding-bottom: 0;
+}
+
+.Center{
+    font-family: 'Poppins';
+    font-weight: 800;
+    text-align: center;
+}
+
+#text{
+    margin-top: 0;
+    padding-top: 15px;
+    padding-bottom: 50px;
+    font-family: 'Poppins';
+    text-align: center;
+}
+
+#contact{
+    margin-top: 100px;
+}
+
+#contactimg img{
+    margin-top: 120px;
+    background-color: #000000;
+    border-radius: 25px;
+    width: 100%;
+    padding-top: 10px 25px 10px 25px;
+}
+
+#contactform{
+    margin-left: 75px;
+}
+
+#text1{
+    font-size: 16px;
+    text-align: left;
+}
+
+#title1{
+    font-size: 24px;
+}
+
+#contactform input{
+    margin-bottom: 20px;
+    border-radius: 50px;
+    border: 0;
+    background-color: #F5F6FB;
+    font-family: 'Poppins';
+    font-size: 16px;
+    color: #000000;
+    width: 80%;
+    height: 36px;
+    padding: 15px 25px 15px 25px;
+}
+
+#buttonemail{
+    color: white;
+    background: #1F7CFF;
+    border-radius: 50px;
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    padding: 10px 25px 10px 25px;
+    text-align: center;
+    margin-right: 20px;
+    border: 0;
+    width: 47%;
+    font-size: 16px;
+    cursor: pointer;
+}
+
+#buttonemail:hover{
+    background-color: #0b4fad;
+    box-shadow: rgba(0, 0, 0, 0.5) 0 10px 20px;
+    transform: translateY(-2px);
+}
+
+#buttonemail:active {
+    box-shadow: none;
+    transform: rotateY(0);
+}
+
+#buttoncta:hover{
+    background-color: #0b4fad;
+    box-shadow: rgba(0, 0, 0, 0.5) 0 10px 20px;
+    transform: translateY(-2px);
+}
+
+#buttoncta:active {
+    box-shadow: none;
+    transform: rotateY(0);
+}
+
+#PortifolioTitle{
+    margin-top: 50px;
+
+}
+
+#port img{
+    align-items: center;
+    width: 250px;
+    border-radius: 25px;
+    margin-top: 25px;
+}
+
+#port p{
+    font-family: 'Poppins';
+    font-size: 20px;
+}
